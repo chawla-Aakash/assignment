@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 16px;
+    color: black;
+    background-color: aqua;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+#header{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    /* justify-content: center; */
+    position: fixed;
+    z-index: 10001;
+}
+
+#header .container{
+    max-width: 960px;
+    margin: auto;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: green; */
+  }
+  
+  #nav-brand{
+      float: left;
+      
+  }
+  #nav-brand a{
+    font-size: 25px;
+  }
+
+#header  ul .nav-items {
+    float: right;
+  }
+
+  #header ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    text-decoration: none;
+  }
+
+
+main{
+    max-width: 960px;
+    margin: auto;
+    padding:50px;
+    background-color: white;
+}
+
+footer{
+    background-color: green;
+    height: 50px;
+    max-width: 960px;
+    margin: auto;
+    
+}
+
+main form{
+    /* margin:auto; */
+    padding: 50px;
+    max-width: 500px;
+    background-color: pink;
+    display: block;
+    height: 60vh;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-self: center; */
+    /* justify-content: center; */
+}
+
+.form-group{
+    width: 350px;
+    border: 1px solid red;
+    background-color: grey;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+
+.form-group label{
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    display: block;
+
+}
+
+.form-group textarea{
+  padding: 12px;
+  margin: auto;
+}
+
+
+a[type=submit]{
+    width: 175px;
+    height: 50px;
+    padding: 15px;
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-overflow: hidden;
+}
